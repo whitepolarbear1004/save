@@ -1,0 +1,12 @@
+@font-face{font-family:'Noto Sans KR';font-weight:400;src:url(../../../assets/fonts/korean-400.woff2) format('woff2');}
+@font-face{font-family:'Noto Sans KR';font-weight:400;src:url(../../../assets/fonts/latin-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+20A9;}
+@font-face{font-family:'Noto Sans KR';font-weight:500;src:url(../../../assets/fonts/korean-500.woff2) format('woff2');}
+@font-face{font-family:'Noto Sans KR';font-weight:500;src:url(../../../assets/fonts/latin-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+20A9;}
+@font-face{font-family:'Noto Sans KR';font-weight:700;src:url(../../../assets/fonts/korean-700.woff2) format('woff2');}
+@font-face{font-family:'Noto Sans KR';font-weight:700;src:url(../../../assets/fonts/latin-700.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+20A9;}
+@font-face{font-family:'Noto Sans KR';font-weight:900;src:url(../../../assets/fonts/korean-900.woff2) format('woff2');}
+@font-face{font-family:'Noto Sans KR';font-weight:900;src:url(../../../assets/fonts/latin-900.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+20A9;}
+:root{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#8a8984;--blue:#2a78d6;--blue-dark:#184f95;--blue-light:#cde2fb;--line:#e6e5e1}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--surface);color:var(--ink);font-family:'Noto Sans KR',sans-serif;width:900px}
+.foot{font-size:20px;color:var(--muted);line-height:1.5}
